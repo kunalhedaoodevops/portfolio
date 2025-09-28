@@ -6,6 +6,7 @@ import Skills from './skills';
 import Resume from './resume';
 import Portfolio from './portfolio';
 import Service from './service';
+import Testimonials from './testimonials';
 import '../assets/css/main.css';
 
 const Main = () => {
@@ -19,6 +20,7 @@ const Main = () => {
        <Resume />
        <Portfolio />
        <Service />
+       <Testimonials />
        </>
   );
 };
