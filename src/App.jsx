@@ -25,7 +25,7 @@ function App() {
   const toggleIconClasses = `header-toggle d-xl-none bi ${isMenuOpen ? 'bi-x' : 'bi-list'}`;
 
   return (
-    <>
+    <div style={{width:'100%'}}>
       {showPreloader && (
         // This is your preloader element. You'll need to style it in App.css
         // or a dedicated preloader.css file.
@@ -39,7 +39,7 @@ function App() {
       <main className="main">
         <Main />
       </main>
-    </>
+    </div>
   )
 }
 
