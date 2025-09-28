@@ -1,8 +1,20 @@
 import { memo, useEffect, useRef } from "react";
 import "../assets/css/hero.css";
 import heroImage from "../assets/img/hero-bg.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Hero = () => {
   const typedRef = useRef(null);
+
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    });
+  }, []);
 
   useEffect(() => {
     const el = typedRef.current;
@@ -51,7 +63,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero" className="hero section light-background">
+    <section id="hero" className="hero section light-background customWidth">
       <img src={heroImage} alt="" />
       <div className="container" data-aos="zoom-out">
         <div className="row justify-content-center">
