@@ -4,22 +4,22 @@ const Resume = () => {
   return (
 <>
 
-    <section id="resume" class="resume section">
+    <section id="resume" className="resume section">
 
 
-      <div class="container section-title" data-aos="fade-up">
+      <div className="container section-title" data-aos="fade-up">
         <h2>Resume</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div>
 
-      <div class="container">
+      <div className="container">
 
-        <div class="row">
+        <div className="row">
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Sumary</h3>
+          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 className="resume-title">Sumary</h3>
 
-            <div class="resume-item pb-0">
+            <div className="resume-item pb-0">
               <h4>Kunal Hedaoo</h4>
               <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
               <ul>
@@ -29,15 +29,15 @@ const Resume = () => {
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
+            <h3 className="resume-title">Education</h3>
+            <div className="resume-item">
               <h4>Master of Fine Arts &amp; Graphic Design</h4>
               <h5>2015 - 2016</h5>
               <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
               <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
             </div>
 
-            <div class="resume-item">
+            <div className="resume-item">
               <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
               <h5>2010 - 2014</h5>
               <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
@@ -46,9 +46,9 @@ const Resume = () => {
 
           </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
+          <div className="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 className="resume-title">Professional Experience</h3>
+            <div className="resume-item">
               <h4>Senior graphic design specialist</h4>
               <h5>2019 - Present</h5>
               <p><em>Experion, New York, NY </em></p>
@@ -60,7 +60,7 @@ const Resume = () => {
               </ul>
             </div>
 
-            <div class="resume-item">
+            <div className="resume-item">
               <h4>Graphic design specialist</h4>
               <h5>2017 - 2018</h5>
               <p><em>Stepping Stone Advertising, New York, NY</em></p>
