@@ -3,6 +3,7 @@ import "../assets/css/about.css";
 import ProfileImage from "../assets/img/profile-img.jpg";
 const About = () => {
   return (
+    <>
         <section id="about" className="about section">
       <div className="container section-title" data-aos="fade-up">
         <h2>About</h2>
@@ -48,6 +49,7 @@ I am an experienced DevOps Engineer skilled in building robust CI/CD pipelines a
       </div>
 
     </section>
+    </>
   );
 };
 
