@@ -27,3 +27,5 @@ dist-ssr
 Port-resume/
 .history/
 package-lock.json
+.env
+backend/

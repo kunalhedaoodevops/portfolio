@@ -7,6 +7,8 @@ import Resume from './resume';
 import Portfolio from './portfolio';
 import Service from './service';
 import Testimonials from './testimonials';
+import Contact from './contact';
+
 import '../assets/css/main.css';
 
 const Main = () => {
@@ -21,6 +23,7 @@ const Main = () => {
        <Portfolio />
        <Service />
        <Testimonials />
+       <Contact />
        </>
   );
 };
